@@ -1,0 +1,35 @@
+# LPC-Addon Placeholders:
+# {message} - Il messaggio in chat
+# {name} - Nome del giocatore
+# {displayname} - Nickname del giocatore
+# {world} - Mondo in cui il giocatore è connesso
+# {prefix} - Prefisso del giocatore
+# {suffix} - Suffisso del giocatore
+# {prefixes} - Prefissi del giocatore
+# {suffixes} - Suffissi del giocatore
+chat-format: "{prefix}{name}&r: {message}"
+group-formats:
+  #default: "[default] {name}&r: {message}"
+  #admin: "[admin] {name}&r: {message}"
+  #owner: "&4&lOWNER &4{name}&r: &c{message}"
+
+spawn-location:
+  ==: org.bukkit.Location
+  world: world
+  x: 9591.509258864575
+  y: 45.0
+  z: 10264.543708603067
+  pitch: -1.4602038
+  yaw: -0.18252844
+
+queue:
+  prefix: '&8[&4&lKERNEL&8] '
+  messages:
+    added: "&eSei stato aggiunto alla coda per il server: &6&n%server%\n &6Posizione Attuale: &c#%pos%&8/&c#%maxpos%&6!"
+    move: '&eSei in posizione: &c%pos%&8/&c%maxpos% &edella coda&6!'
+    done: '&eSei uscito dalla coda&e!'
+  servers:
+    - 'lifesteal'
+    - 'kitop'
+  perms:
+    bypass: 'kernel.queue.bypass'

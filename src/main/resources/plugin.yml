@@ -1,0 +1,46 @@
+name: kernel
+version: '${project.version}'
+main: it.binarycodee.Kernel
+api-version: '1.8'
+authors: [ BinaryCodee, SIX_veliero ]
+description: Advanced Hub / Lobby Core for StoryRPG
+commands:
+  setfirstopen:
+    description: Setti la prima data di apertura!
+    permission: kernel.setfirstopen
+    aliases: [ sfopen, sfo, sfirsto, sfirstopen, setfo ]
+  lpc:
+    description: Ricarica LPC configurazioni!
+    permission: lpc.reload
+    usage: "Usa: /lpc reload"
+  kernelqueue:
+    aliases: [ kqueue, kernelq ]
+  kernelsystem:
+    aliases: [ ksystem, ksys, kernelsys ]
+  queue:
+  gmc:
+    aliases: [ gm1 ]
+  gmsp:
+    aliases: [ gm3 ]
+  gms:
+    aliases: [ gm0 ]
+  tp:
+    aliases: [ teleport ]
+  tpall:
+    aliases: [ teleportall ]
+  tphere:
+    aliases: [ teleporthere ]
+  alert:
+    aliases: [ avviso ]
+  fly:
+    aliases: [ flight ]
+  invsee:
+    aliases: [ inv ]
+  kernel:
+    aliases: [ core ]
+  setspawn:
+    aliases: [ sets ]
+  spawn:
+    aliases: [ lobby, hub ]
+  vanish:
+    aliases: [ v ]
